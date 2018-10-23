@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding:0; 
+}
+
+.clear {
+	zoom: "1";
+}
+
+.top  a:link    {color:#000;}
+.top  a:visited {color:#000;}
+.top  a:hover   {color:#838B8B;padding: 5px;}
+.top  a:active  {color:#87CEFF;}
+
+.center  a:link    {color:#000;}
+.center  a:visited {color:#000;}
+.center  a:hover   {color:#838B8B;}
+.center  a:active  {color:#87CEFF;}
+
+
+body a{
+	text-decoration:none;
+}
+
+
+.top{
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 1100px;
+	height: 100px;
+	background: #F0F0F0;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.top-left{
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-left: 10px;
+}
+
+.top-left img{
+	width: 200px;
+	height: 60px;
+	margin-top: 20px;
+
+}
+
+.top-right{
+	width: 800px;
+	height: 50px;
+	float: right;
+	margin-top: 25px;
+}
+
+.top-right ul {
+	margin-top: 8px;
+}
+
+.top-right ul li{
+	font-size: 25px;
+	float: left;
+	list-style: none;
+	margin-right: 30px;
+}
+
+.center{
+	margin: 0 auto;
+	width: 1200px;
+	height: 600px;
+}
+
+.center ul li{
+	list-style: none;
+}
+
+.cen-left{
+	width: 60px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 25px;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.cen-left div{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.cen-left img{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.cen-left li{
+	text-align: center;
+}
+
+.cen-cen{
+	width: 250px;
+	float: left;
+	margin-left: 30px;
+}
+
+.cen-right{
+	width: 740px;
+	height:600px; 
+	float: left;
+	margin-left: 50px;
+	overflow-y:auto;
+}
